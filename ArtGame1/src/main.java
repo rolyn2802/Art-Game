@@ -16,4 +16,4 @@ public class main {                                                             
                 int frameWidth  = frame.getContentPane().getWidth();
                 int frameHeight  = frame.getContentPane().getHeight();
         }
-}
+}adasd
