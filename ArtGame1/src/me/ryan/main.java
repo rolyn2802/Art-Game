@@ -6,7 +6,7 @@ import javax.swing.JFrame;
 
 public class main {                                                                         //Run this class to run the game
       public static void main(String[] args) {                                                 //The first method called by java
-              JFrame frame = new JFrame("EvilMario v.1.0.2 by Max Mastalerz");                     //Create JFrame called frame
+              JFrame frame = new JFrame("EvilMario v.1.0.2 by Ryan Prince");                     //Create JFrame called frame
 
                               //Go to board class
               frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);                                //Make frame close on X click
