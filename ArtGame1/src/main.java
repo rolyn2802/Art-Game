@@ -1,4 +1,6 @@
-import javax.swing.JFrame;                                                                   //Import the JFrame
+import javax.swing.JFrame;
+
+//Import the JFrame
 
 public class main {                                                                         //Run this class to run the game
         public static void main(String[] args) {                                                 //The first method called by java
