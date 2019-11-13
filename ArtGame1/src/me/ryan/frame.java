@@ -4,7 +4,7 @@ import javax.swing.JFrame;
 
 //Import the JFrame
 
-public class frame {                                                                         //Run this class to run the game
+public class frame { //test                                                                        //Run this class to run the game
       public static void main(String[] args) {                                                 //The first method called by java
               JFrame frame = new JFrame("EvilMario v.1.0.2 by Ryan and Cade");                     //Create JFrame called frame
 
