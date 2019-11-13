@@ -14,4 +14,11 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>src/me/ryan/Pictures</name>
+			<type>2</type>
+			<location>E:/APCS/Pictures</location>
+		</link>
+	</linkedResources>
 </projectDescription>
