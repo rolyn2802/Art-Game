@@ -4,11 +4,11 @@ import javax.swing.JFrame;
 
 //Import the JFrame
 
-public class frame { //test                                                                        //Run this class to run the game
-      public static void main(String[] args) {                                                 //The first method called by java
-              JFrame frame = new JFrame("EvilMario v.1.0.2 by Ryan and Cade");                     //Create JFrame called frame
+public class frame {                                                                               //Run this class to run the game
+      public static void main(String[] args) {                                                     //The first method called by java
+              JFrame frame = new JFrame("Mario by Ryan and Cade");                                 //Create JFrame called frame
 
-                              //Go to board class
+              frame.getContentPane().add(new board());                                             //Go to board class
               frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);                                //Make frame close on X click
               frame.setSize(600,413);                                                              //Set the frame size to the size of the background
               frame.setResizable(false);                                                           //Make sure the user can't resize the frame
