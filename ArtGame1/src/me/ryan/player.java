@@ -2,14 +2,13 @@ package me.ryan;
 
 import java.awt.Image;
 import java.awt.event.KeyEvent;
-
 import javax.swing.ImageIcon;
 
 public class player {
     int x, dx, y, nx, nx2, distanceTraveled;                                                     //x coordinate,change in x coordinate,y coordinate,1st rep bg,2nd rep bg,dist traveled
     Image player;                                                                                //The player variable
-    ImageIcon playerFacingLeft = new     ImageIcon("D:/ICS3U1/EvilMario/images/MarioLeft.png");  //Image for player while he is     turning left
-    ImageIcon playerFacingRight = new     ImageIcon("D:/ICS3U1/EvilMario/images/MarioRight.png");//Image for player while he is turning right
+    ImageIcon playerFacingLeft = new     ImageIcon("E:\\APCS\\Pictures\\MarioL.png");  //Image for player while he is     turning left
+    ImageIcon playerFacingRight = new     ImageIcon("E:\\APCS\\Pictures\\MarioR.png");//Image for player while he is turning right
 
         public player() {
             player = playerFacingRight.getImage();                                               //Give the player the image

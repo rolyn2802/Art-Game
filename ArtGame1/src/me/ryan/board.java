@@ -22,9 +22,9 @@ public class board extends JPanel implements ActionListener{                    
 
 	                addKeyListener(new AL());                                                            //Listen for keys
 	                setFocusable(true);                                                                                                                  //Allows movement         
-	                ImageIcon i = new ImageIcon("D:/ICS3U1/EvilMario/images/Menu.jpg");                  //Image for menu
+	                ImageIcon i = new ImageIcon("E:\\APCS\\Pictures\\Icon.jpg");                  //Image for menu
 	                menuBg = i.getImage();
-	                i = new ImageIcon("D:/ICS3U1/EvilMario/images/EvilMario_Background.png");  //Image for background
+	                i = new ImageIcon("E:\\APCS\\Pictures\\Background.png");                             //Image for background
 	                background = i.getImage();                                                           //Give the background the image
 	                time = new Timer(20,this);                                                           //Timer set to update "this" class every 20 milliseconds(Approximately 50fps)
 	                time.start();                                                                        //Actually start the timer
